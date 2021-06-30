@@ -5,7 +5,7 @@ cd /home/vagrant/
 mkdir starter_app
 cd starter_app
 #copy app definition file
-mv /home/vagrant/files/ngx.json .
+mv /vagrant/files/ngx.json .
 #take ownership of directory
 sudo chown -R $USER:$(id -gn $USER) /home/vagrant/.config
 #Create new ngx app from defintion file
