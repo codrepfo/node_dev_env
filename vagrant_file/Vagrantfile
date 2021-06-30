@@ -66,4 +66,9 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+
+  # vagrant package --vagrantfile vagrant_file/Vagrantfile --output node_dev_env.box
+  # vagrant box list
+  # vagrant box add node_dev_env  node_dev_env.box
+
 end

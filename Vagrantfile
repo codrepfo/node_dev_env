@@ -69,4 +69,28 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+
+  # vagrant package --vagrantfile vagrant_file/Vagrantfile --output node_dev_env.box
+  # vagrant box list
+  # vagrant box add node_dev_env  node_dev_env.box
+  # vagrant up --provision (commment line 67 and uncomment line 68)
+  # snapshot: 
+  # comment 67 & 68
+  # vagrant up
+  # whern ready
+  # vagrant snapshot save pre_provision 
+  # vagrant halt
+  # uncomment 67 & 68
+  # vagrant up --provision
+  # vagrant snapshot save after_provision
+  # vagrant snapshot list
+  # vgrant snapshot restore pre_provision --no-provision
+  # vagrant ssh
+  # execute:
+  # node -v
+  # npm -v
+  # vagrant suspend : hibernate 
+  # vagrant status
+  # vagrant resume
+
 end
